@@ -17,7 +17,7 @@
 #echo 'src-git passwall_packages https://github.com/lxiaya/openwrt-passwall-packages;main' >>feeds.conf.default
 echo 'src-git homeproxy https://github.com/lxiaya/openwrt-homeproxy.git' >>feeds.conf.default
 #echo 'src-git openclash https://github.com/vernesong/OpenClash' >>feeds.conf.default
-svn co https://github.com/lxiaya/openwrt-onecloud/trunk/target/linux/meson target/linux/meson
+svn export https://github.com/lxiaya/openwrt-onecloud/trunk/target/linux/meson target/linux/meson
 #echo 'src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2;main' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git;main' >>feeds.conf.default
 #echo 'src-git clash https://github.com/lxiaya/onecloud-package' >>feeds.conf.default
