@@ -1,4 +1,7 @@
 #!/bin/sh
+# SPDX-License-Identifier: GPL-2.0-only
+#
+# Copyright (C) 2017 OpenWrt.org
 
 set -x
 [ $# -eq 5 ] || {
