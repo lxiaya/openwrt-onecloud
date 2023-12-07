@@ -7,6 +7,8 @@ sudo chmod 755 feeds/homeproxy/luci-app-homeproxy/root/etc/homeproxy/scripts/gen
 sudo chmod 755 feeds/homeproxy/luci-app-homeproxy/root/etc/homeproxy/scripts/generate_server.uc
 sudo chmod 755 feeds/homeproxy/luci-app-homeproxy/root/etc/homeproxy/scripts/update_subscriptions.uc
 sudo rm -rf feeds/packages/net/sing-box
+sudo rm -rf feeds/packages/net/chinadns-ng
+sudo rm -rf feeds/luci/applications/luci-app-homeproxy
 #sudo rm -rf feeds/packages/net/v2ray-core
 #sudo rm -rf feeds/packages/net/v2ray-geodata
 #sudo rm -rf feeds/packages/net/xray-core
