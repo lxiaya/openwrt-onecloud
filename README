@@ -1,9 +1,4 @@
 openwrt-onecloud-玩客云
 
-登录10.0.0.2
-
-ssh登录
-
-扩容
-
-resize2fs /dev/mmcblk1p2
+登录地址:10.0.0.2
+密码:空
