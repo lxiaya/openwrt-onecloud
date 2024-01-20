@@ -22,3 +22,11 @@ echo 'src-git homeproxy https://github.com/lxiaya/openwrt-homeproxy.git' >>feeds
 #echo 'src-git clash https://github.com/lxiaya/onecloud-package' >>feeds.conf.default
 #echo 'src-git dns https://github.com/sbwml/luci-app-mosdns' >>feeds.conf.default
 #echo 'src-git helloworld https://github.com/lxiaya/helloworld' >>feeds.conf.default
+# Add a onecloud meson
+merge_package(){
+    git clone --depth=1 --single-branch $1
+    [ -d $3 ] || mkdir -p $3
+    cp -a $2/. $3/
+    rm -rf $repo
+}
+merge_package "https://github.com/lxiaya/openwrt-onecloud" "openwrt-onecloud/target/linux/meson" "target/linux/meson"
