@@ -15,10 +15,10 @@ env:
   REPO_URL: https://github.com/lxiaya/openwrt
   REPO_BRANCH: master
 
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: 0 */28 * * *
+#on:
+#  workflow_dispatch:
+#  schedule:
+#    - cron: 0 */28 * * *
 
 jobs:
   check:
