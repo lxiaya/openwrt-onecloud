@@ -30,3 +30,4 @@ merge_package(){
     rm -rf $repo
 }
 merge_package "https://github.com/lxiaya/openwrt-onecloud" "openwrt-onecloud/target/linux/meson" "target/linux/meson"
+rm -rf openwrt-onecloud
