@@ -1,7 +1,7 @@
 # openwrt-onecloud-玩客云
 
-- 优化系统内核
-  - [✔] TCP 开启原版BBR
+- 系统内核
+  - [✔] TCP 开启BBR
 
 - 刷机工具
   - [下载](https://xd1314.lanzoul.com/iXHbz17bqjhc)
