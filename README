@@ -1,6 +1,12 @@
-openwrt-onecloud
+# openwrt-onecloud-玩客云
 
-登录地址:10.0.0.2
-密码:空
+- 优化系统内核
+  - [✔] TCP 开启原版BBR
 
-刷机工具:[xd1314.lanzoul.com/iXHbz17bqjhc]
+- 刷机工具
+  - [下载](https://xd1314.lanzoul.com/iXHbz17bqjhc)
+
+
+- 相关引导
+
+  - [`u-boot`](https://github.com/hzyitc/u-boot-onecloud)
