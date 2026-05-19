@@ -21,4 +21,4 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git;main' >>feeds.conf.default
 echo 'net.netfilter.nf_conntrack_max=65536' >>package/kernel/linux/files/sysctl-nf-conntrack.conf
 echo 'net.core.default_qdisc=fq' >>package/kernel/linux/files/sysctl-tcp-bbr.conf
-# sed -i 's|^src-git luci .*|src-git luci https://git.openwrt.org/project/luci.git^8aafcdf7f2fe35f62a9ab08fb26141ef19a8b29e|' feeds.conf.default
+sed -i 's|^src-git luci .*|src-git luci https://git.openwrt.org/project/luci.git^fcab80e3589e18efc7b75ec9c9cf58c98d344bd7|' feeds.conf.default
